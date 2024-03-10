@@ -17,13 +17,13 @@ h1, h2 {
 
 h1 {
   color: #333;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 h2 {
   color: #666;
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 section {
@@ -56,7 +56,7 @@ section {
 
 .portfolio p {
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px; /* 控制标题与说明文本之间的间距 */
     text-align: center; /* 确保文本在其容器中居中 */
 }
