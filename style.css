@@ -17,7 +17,7 @@ h1, h2 {
 
 h1 {
   color: #333;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
 }
 
 section {
-    padding: 40px;
+    padding: 30px;
     text-align: center;
 }
 
