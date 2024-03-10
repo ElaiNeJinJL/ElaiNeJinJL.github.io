@@ -27,7 +27,8 @@ h2 {
 }
 
 section {
-  padding: 20px;
+    padding: 30px;
+    text-align: center; /* 将“My Work”标题置中 */
 }
 
 .portfolio {
@@ -41,14 +42,21 @@ section {
 .portfolio li {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 48%; 
+    align-items: center; /* 使图片下的标题和说明文本居中对齐 */
+    width: 48%; /* 控制两列布局 */
     margin-bottom: 20px;
 }
 
 .portfolio img {
-    width: 100%; 
-    max-width: 300px; 
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px; /* 控制图片的最大宽度 */
+    height: auto;
+    margin-bottom: 20px; /* 控制图片与标题之间的间距 */
 }
 
+.portfolio p {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px; /* 控制标题与说明文本之间的间距 */
+    text-align: center; /* 确保文本在其容器中居中 */
+}
