@@ -17,17 +17,27 @@ h1, h2 {
 
 h1 {
   color: #333;
-  font-size: 24px;
+  font-size: 40px;
 }
 
 h2 {
   color: #666;
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 
 section {
-  padding: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 26px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
 }
 
 .portfolio {
@@ -42,13 +52,26 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 48%; 
+    width: 48%;
     margin-bottom: 20px;
 }
 
 .portfolio img {
-    width: 100%; 
-    max-width: 300px; 
-    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
+.portfolio p {
+    color: #333;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.work-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
