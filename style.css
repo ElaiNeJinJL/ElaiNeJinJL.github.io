@@ -54,9 +54,16 @@ section {
     margin-bottom: 20px; /* 控制图片与标题之间的间距 */
 }
 
+/* 更新这部分以区分普通段落和标题段落 */
 .portfolio p {
     color: #333;
-    font-size: 16px;
     margin-top: 10px; /* 控制标题与说明文本之间的间距 */
     text-align: center; /* 确保文本在其容器中居中 */
+    font-size: 16px; /* 默认段落字体大小 */
+}
+
+/* 新增加粗和增大字号的标题样式 */
+.work-title {
+    font-size: 20px; /* 更大的字号 */
+    font-weight: bold; /* 加粗 */
 }
