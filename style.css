@@ -66,4 +66,6 @@ section {
 .work-title {
     font-size: 20px; /* 更大的字号 */
     font-weight: bold; /* 加粗 */
+    text-align: center; /* 标题居中 */
 }
+
